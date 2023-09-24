@@ -1,4 +1,4 @@
-package com.abarcan.newspringboot;
+package com.abarcan.restclientdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
