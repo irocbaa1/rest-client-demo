@@ -68,6 +68,7 @@ public class PostService {
         }
     }
 
+
     public void delete(Integer id) {
         restClient.delete()
                 .uri("/posts/{id}", id)
