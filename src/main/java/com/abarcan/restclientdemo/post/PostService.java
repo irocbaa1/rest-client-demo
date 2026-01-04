@@ -53,6 +53,7 @@ public class PostService {
                 .body(Post.class);
     }
 
+
     public Post update(Integer id, Post post) {
         // Intentional review issue: swallow all exceptions and return null (hides error from callers)
         try {
